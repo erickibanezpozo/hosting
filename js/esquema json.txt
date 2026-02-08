@@ -1,0 +1,132 @@
+const obrasBase = [
+        {
+            id: 1,
+            nombre: "Hospital del Sud - Segunda Fase",
+            tipo: "Salud",
+            gestion: "2022",
+            lat: -17.4355,
+            lng: -66.1492,
+            color: "#b71c1c", // Rojo Institucional
+            icon: "fa-hospital",
+            descripcion: "Ampliación de salas de internación y equipamiento médico especializado.",
+            imagen: "https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?auto=format&fit=crop&w=400",
+            video: "https://www.w3schools.com/html/mov_bbb.mp4"
+        },
+        {
+            id: 2,
+            nombre: "Distribuidor Viaducto Blanco Galindo",
+            tipo: "Vial",
+            gestion: "2023",
+            lat: -17.3940,
+            lng: -66.1820,
+            color: "#333333", // Gris Oscuro para vialidad
+            icon: "fa-road",
+            descripcion: "Solución vial para descongestionar el tráfico vehicular hacia Quillacollo.",
+            imagen: "https://images.unsplash.com/photo-1545147986-a9d6f210df77?auto=format&fit=crop&w=400",
+            video: "#"
+        },
+        {
+            id: 3,
+            nombre: "Unidad Educativa Modelo Itocta",
+            tipo: "Educación",
+            gestion: "2021",
+            lat: -17.4580,
+            lng: -66.1350,
+            color: "#4a148c", // Morado Institucional
+            icon: "fa-graduation-cap",
+            descripcion: "Nueva infraestructura con laboratorios y salas audiovisuales para 500 estudiantes.",
+            imagen: "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=400",
+            video: "#"
+        },
+        {
+            id: 4,
+            nombre: "Centro de Salud Alalay",
+            tipo: "Salud",
+            gestion: "2024",
+            lat: -17.4120,
+            lng: -66.1320,
+            color: "#b71c1c",
+            icon: "fa-hospital",
+            descripcion: "Mejoramiento de infraestructura y atención 24 horas para la zona sudeste.",
+            imagen: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=400",
+            video: "#"
+        },
+        {
+            id: 5,
+            nombre: "Complejo Deportivo Petrolero",
+            tipo: "Deportes",
+            gestion: "2022",
+            lat: -17.4250,
+            lng: -66.1550,
+            color: "#2e7d32", // Verde para deportes
+            icon: "fa-running",
+            descripcion: "Revitalización de campos deportivos con césped sintético e iluminación LED.",
+            imagen: "https://images.unsplash.com/photo-1526232761682-d26e03ac148e?auto=format&fit=crop&w=400",
+            video: "#"
+        },
+        {
+            id: 6,
+            nombre: "Pasarela Peatonal Recoleta",
+            tipo: "Vial",
+            gestion: "2023",
+            lat: -17.3820,
+            lng: -66.1560,
+            color: "#333333",
+            icon: "fa-walking",
+            descripcion: "Mantenimiento preventivo y mejora de iluminación ornamental.",
+            imagen: "https://images.unsplash.com/photo-1449034446853-66c86144b0ad?auto=format&fit=crop&w=400",
+            video: "#"
+        },
+        {
+            id: 7,
+            nombre: "Escuela Municipal de Artes",
+            tipo: "Educación",
+            gestion: "2025",
+            lat: -17.3980,
+            lng: -66.1620,
+            color: "#4a148c",
+            icon: "fa-paint-brush",
+            descripcion: "Espacio cultural para la formación técnica en música, danza y artes plásticas.",
+            imagen: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=400",
+            video: "#"
+        },
+        {
+            id: 8,
+            nombre: "Parque Integración Cochabamba",
+            tipo: "Deportes",
+            gestion: "2024",
+            lat: -17.4420,
+            lng: -66.1280,
+            color: "#2e7d32",
+            icon: "fa-tree",
+            descripcion: "Áreas verdes, juegos infantiles y ciclovía perimetral.",
+            imagen: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=400",
+            video: "#"
+        },
+        {
+            id: 9,
+            nombre: "Pavimentación Av. Petrolera Km 7",
+            tipo: "Vial",
+            gestion: "2021",
+            lat: -17.4650,
+            lng: -66.1150,
+            color: "#333333",
+            icon: "fa-road",
+            descripcion: "Nueva capa asfáltica y señalización vial para el transporte pesado.",
+            imagen: "https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?auto=format&fit=crop&w=400",
+            video: "#"
+        },
+        {
+            id: 10,
+            nombre: "Mercado San Antonio Nuevo",
+            tipo: "Vial",
+            gestion: "2023",
+            lat: -17.4025,
+            lng: -66.1555,
+            color: "#6a1b9a",
+            icon: "fa-store",
+            descripcion: "Modernización de infraestructura comercial y accesos para el ciudadano.",
+            imagen: "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?auto=format&fit=crop&w=400",
+            video: "#"
+        }
+    ];
